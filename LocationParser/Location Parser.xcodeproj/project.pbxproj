@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BF198AC21D15B92004E7DAE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF198AB21D15B92004E7DAE /* main.swift */; };
-		F8DB2B37465909D3DEEFFDE1 /* Pods_locationparser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0FBEAEEA3BF673A8CD20C9 /* Pods_locationparser.framework */; };
+		1BF198CE21D17707004E7DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF198CD21D17707004E7DAE /* AppDelegate.swift */; };
+		1BF198D021D17707004E7DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF198CF21D17707004E7DAE /* ViewController.swift */; };
+		1BF198D221D17708004E7DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF198D121D17708004E7DAE /* Assets.xcassets */; };
+		1BF198D521D17708004E7DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF198D321D17708004E7DAE /* Main.storyboard */; };
+		1BF198DD21D1780A004E7DAE /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF198DC21D1780A004E7DAE /* SwiftSoup.framework */; };
+		3069B6E4022E8281825D6F3E /* Pods_POIParserTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F250E4F9BE7EBCAF35F0DEB6 /* Pods_POIParserTestApp.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		1BF198A621D15B92004E7DAE /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1BF198A821D15B92004E7DAE /* locationparser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = locationparser; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BF198AB21D15B92004E7DAE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1BF198B221D16249004E7DAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		48D193ECA14A42E215B26810 /* Pods-locationparser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationparser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-locationparser/Pods-locationparser.debug.xcconfig"; sourceTree = "<group>"; };
+		1BF198CB21D17707004E7DAE /* POIParserTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POIParserTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF198CD21D17707004E7DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BF198CF21D17707004E7DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BF198D121D17708004E7DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF198D421D17708004E7DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF198D621D17708004E7DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF198D721D17708004E7DAE /* POIParserTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = POIParserTestApp.entitlements; sourceTree = "<group>"; };
+		1BF198DC21D1780A004E7DAE /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE2DF48C1A860EFC7F896C9 /* Pods-POIParserTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POIParserTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POIParserTestApp/Pods-POIParserTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD13F4FAAE02E6374478B7B /* Pods-POIParserTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POIParserTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-POIParserTestApp/Pods-POIParserTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		8D0FBEAEEA3BF673A8CD20C9 /* Pods_locationparser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_locationparser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD042E6F541871534D6754E5 /* Pods-locationparser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationparser.release.xcconfig"; path = "Pods/Target Support Files/Pods-locationparser/Pods-locationparser.release.xcconfig"; sourceTree = "<group>"; };
+		F250E4F9BE7EBCAF35F0DEB6 /* Pods_POIParserTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POIParserTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BF198A521D15B92004E7DAE /* Frameworks */ = {
+		1BF198C821D17707004E7DAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DB2B37465909D3DEEFFDE1 /* Pods_locationparser.framework in Frameworks */,
+				1BF198DD21D1780A004E7DAE /* SwiftSoup.framework in Frameworks */,
+				3069B6E4022E8281825D6F3E /* Pods_POIParserTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				1BF198B221D16249004E7DAE /* README.md */,
-				1BF198AA21D15B92004E7DAE /* Location Parser */,
+				1BF198CC21D17707004E7DAE /* POIParserTestApp */,
 				1BF198A921D15B92004E7DAE /* Products */,
 				9FA7CE13A05F6833AFA1BDC3 /* Pods */,
 				5B97F04376F9B87704CA5F9C /* Frameworks */,
@@ -58,23 +58,30 @@
 		1BF198A921D15B92004E7DAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BF198A821D15B92004E7DAE /* locationparser */,
+				1BF198CB21D17707004E7DAE /* POIParserTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BF198AA21D15B92004E7DAE /* Location Parser */ = {
+		1BF198CC21D17707004E7DAE /* POIParserTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				1BF198AB21D15B92004E7DAE /* main.swift */,
+				1BF198CD21D17707004E7DAE /* AppDelegate.swift */,
+				1BF198CF21D17707004E7DAE /* ViewController.swift */,
+				1BF198D121D17708004E7DAE /* Assets.xcassets */,
+				1BF198D321D17708004E7DAE /* Main.storyboard */,
+				1BF198D621D17708004E7DAE /* Info.plist */,
+				1BF198D721D17708004E7DAE /* POIParserTestApp.entitlements */,
 			);
-			path = "Location Parser";
+			path = POIParserTestApp;
 			sourceTree = "<group>";
 		};
 		5B97F04376F9B87704CA5F9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1BF198DC21D1780A004E7DAE /* SwiftSoup.framework */,
 				8D0FBEAEEA3BF673A8CD20C9 /* Pods_locationparser.framework */,
+				F250E4F9BE7EBCAF35F0DEB6 /* Pods_POIParserTestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,8 +89,8 @@
 		9FA7CE13A05F6833AFA1BDC3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48D193ECA14A42E215B26810 /* Pods-locationparser.debug.xcconfig */,
-				FD042E6F541871534D6754E5 /* Pods-locationparser.release.xcconfig */,
+				2BE2DF48C1A860EFC7F896C9 /* Pods-POIParserTestApp.debug.xcconfig */,
+				4DD13F4FAAE02E6374478B7B /* Pods-POIParserTestApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,23 +98,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BF198A721D15B92004E7DAE /* locationparser */ = {
+		1BF198CA21D17707004E7DAE /* POIParserTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BF198AF21D15B92004E7DAE /* Build configuration list for PBXNativeTarget "locationparser" */;
+			buildConfigurationList = 1BF198D821D17708004E7DAE /* Build configuration list for PBXNativeTarget "POIParserTestApp" */;
 			buildPhases = (
-				3E27B3665D9149269B9A8466 /* [CP] Check Pods Manifest.lock */,
-				1BF198A421D15B92004E7DAE /* Sources */,
-				1BF198A521D15B92004E7DAE /* Frameworks */,
-				1BF198A621D15B92004E7DAE /* CopyFiles */,
+				B074388768CBECAFAAC3D9F0 /* [CP] Check Pods Manifest.lock */,
+				1BF198C721D17707004E7DAE /* Sources */,
+				1BF198C821D17707004E7DAE /* Frameworks */,
+				1BF198C921D17707004E7DAE /* Resources */,
+				08E80E40C09EAC8740B9001D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = locationparser;
-			productName = "Location Parser";
-			productReference = 1BF198A821D15B92004E7DAE /* locationparser */;
-			productType = "com.apple.product-type.tool";
+			name = POIParserTestApp;
+			productName = POIParserTestApp;
+			productReference = 1BF198CB21D17707004E7DAE /* POIParserTestApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -119,8 +127,13 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Vera Carr";
 				TargetAttributes = {
-					1BF198A721D15B92004E7DAE = {
+					1BF198CA21D17707004E7DAE = {
 						CreatedOnToolsVersion = 11.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -130,19 +143,54 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1BF1989F21D15B92004E7DAE;
 			productRefGroup = 1BF198A921D15B92004E7DAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BF198A721D15B92004E7DAE /* locationparser */,
+				1BF198CA21D17707004E7DAE /* POIParserTestApp */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1BF198C921D17707004E7DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF198D221D17708004E7DAE /* Assets.xcassets in Resources */,
+				1BF198D521D17708004E7DAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		3E27B3665D9149269B9A8466 /* [CP] Check Pods Manifest.lock */ = {
+		08E80E40C09EAC8740B9001D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-POIParserTestApp/Pods-POIParserTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POIParserTestApp/Pods-POIParserTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B074388768CBECAFAAC3D9F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,7 +205,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-locationparser-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-POIParserTestApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -167,15 +215,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BF198A421D15B92004E7DAE /* Sources */ = {
+		1BF198C721D17707004E7DAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF198AC21D15B92004E7DAE /* main.swift in Sources */,
+				1BF198D021D17707004E7DAE /* ViewController.swift in Sources */,
+				1BF198CE21D17707004E7DAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BF198D321D17708004E7DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF198D421D17708004E7DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1BF198AD21D15B92004E7DAE /* Debug */ = {
@@ -293,22 +353,44 @@
 			};
 			name = Release;
 		};
-		1BF198B021D15B92004E7DAE /* Debug */ = {
+		1BF198D921D17708004E7DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D193ECA14A42E215B26810 /* Pods-locationparser.debug.xcconfig */;
+			baseConfigurationReference = 2BE2DF48C1A860EFC7F896C9 /* Pods-POIParserTestApp.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = POIParserTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracarr.POIParserTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		1BF198B121D15B92004E7DAE /* Release */ = {
+		1BF198DA21D17708004E7DAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD042E6F541871534D6754E5 /* Pods-locationparser.release.xcconfig */;
+			baseConfigurationReference = 4DD13F4FAAE02E6374478B7B /* Pods-POIParserTestApp.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = POIParserTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracarr.POIParserTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -325,11 +407,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BF198AF21D15B92004E7DAE /* Build configuration list for PBXNativeTarget "locationparser" */ = {
+		1BF198D821D17708004E7DAE /* Build configuration list for PBXNativeTarget "POIParserTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BF198B021D15B92004E7DAE /* Debug */,
-				1BF198B121D15B92004E7DAE /* Release */,
+				1BF198D921D17708004E7DAE /* Debug */,
+				1BF198DA21D17708004E7DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
